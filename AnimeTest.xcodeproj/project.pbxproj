@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52679BAD2B57DCE30075F5A7 /* ResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52679BAC2B57DCE30075F5A7 /* ResultsVC.swift */; };
+		527756BE2B5AB5F200CA7428 /* ShareArtWorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527756BD2B5AB5F200CA7428 /* ShareArtWorkVC.swift */; };
+		527756C12B5ADEF300CA7428 /* ResultRegenerateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527756C02B5ADEF300CA7428 /* ResultRegenerateVC.swift */; };
+		52B5C2832B5BB1870090C379 /* CraftYourArtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B5C2822B5BB1870090C379 /* CraftYourArtVC.swift */; };
+		52B5C2852B5BE8ED0090C379 /* EditPromptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B5C2842B5BE8ED0090C379 /* EditPromptVC.swift */; };
+		52B5C2872B5BEBF10090C379 /* EditPromptCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B5C2862B5BEBF10090C379 /* EditPromptCVC.swift */; };
+		52C817D12B579F5400E450C5 /* ArtStyleCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C817D02B579F5400E450C5 /* ArtStyleCollectionVC.swift */; };
+		52C817D42B57BB9600E450C5 /* AdvanceSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C817D32B57BB9600E450C5 /* AdvanceSettingVC.swift */; };
+		52D1E0632B578E6300DCCC2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1E0622B578E6300DCCC2D /* AppDelegate.swift */; };
+		52D1E0652B578E6300DCCC2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1E0642B578E6300DCCC2D /* SceneDelegate.swift */; };
+		52D1E06A2B578E6300DCCC2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D1E0682B578E6300DCCC2D /* Main.storyboard */; };
+		52D1E06C2B578E6600DCCC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D1E06B2B578E6600DCCC2D /* Assets.xcassets */; };
+		52D1E06F2B578E6600DCCC2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D1E06D2B578E6600DCCC2D /* LaunchScreen.storyboard */; };
+		52D1E0792B578F9000DCCC2D /* AnimeArtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1E0782B578F9000DCCC2D /* AnimeArtVC.swift */; };
+		52D1E07D2B57935500DCCC2D /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D1E07C2B57935500DCCC2D /* UploadVC.swift */; };
+		52E600842B5A2DF3009E5CE5 /* FirsttababrArtCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E600832B5A2DF3009E5CE5 /* FirsttababrArtCVC.swift */; };
+		52E600872B5A2E6D009E5CE5 /* FirsttabbarContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E600862B5A2E6D009E5CE5 /* FirsttabbarContainerVC.swift */; };
+		52E6008A2B5A2EE7009E5CE5 /* FirstContainerCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E600892B5A2EE7009E5CE5 /* FirstContainerCVC.swift */; };
+		52E6008D2B5A33C3009E5CE5 /* ChooseArtStyleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6008C2B5A33C3009E5CE5 /* ChooseArtStyleVC.swift */; };
+		52E600902B5A33DE009E5CE5 /* InspirationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E6008F2B5A33DE009E5CE5 /* InspirationVC.swift */; };
+		52E600922B5A485D009E5CE5 /* InspirationCollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E600912B5A485D009E5CE5 /* InspirationCollVC.swift */; };
+		52E600942B5A5053009E5CE5 /* ChooseSettingCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E600932B5A5053009E5CE5 /* ChooseSettingCVC.swift */; };
+		6779581B451789F29EF6A3CF /* Pods_AnimeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1A032DF92395218396B180 /* Pods_AnimeTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F1A032DF92395218396B180 /* Pods_AnimeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52679BAC2B57DCE30075F5A7 /* ResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsVC.swift; sourceTree = "<group>"; };
+		527756BD2B5AB5F200CA7428 /* ShareArtWorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareArtWorkVC.swift; sourceTree = "<group>"; };
+		527756C02B5ADEF300CA7428 /* ResultRegenerateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultRegenerateVC.swift; sourceTree = "<group>"; };
+		52B5C2822B5BB1870090C379 /* CraftYourArtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftYourArtVC.swift; sourceTree = "<group>"; };
+		52B5C2842B5BE8ED0090C379 /* EditPromptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPromptVC.swift; sourceTree = "<group>"; };
+		52B5C2862B5BEBF10090C379 /* EditPromptCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPromptCVC.swift; sourceTree = "<group>"; };
+		52C817D02B579F5400E450C5 /* ArtStyleCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtStyleCollectionVC.swift; sourceTree = "<group>"; };
+		52C817D32B57BB9600E450C5 /* AdvanceSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceSettingVC.swift; sourceTree = "<group>"; };
+		52D1E05F2B578E6300DCCC2D /* AnimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D1E0622B578E6300DCCC2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52D1E0642B578E6300DCCC2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52D1E0692B578E6300DCCC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52D1E06B2B578E6600DCCC2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D1E06E2B578E6600DCCC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52D1E0702B578E6600DCCC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D1E0782B578F9000DCCC2D /* AnimeArtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeArtVC.swift; sourceTree = "<group>"; };
+		52D1E07C2B57935500DCCC2D /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		52E600832B5A2DF3009E5CE5 /* FirsttababrArtCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirsttababrArtCVC.swift; sourceTree = "<group>"; };
+		52E600862B5A2E6D009E5CE5 /* FirsttabbarContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirsttabbarContainerVC.swift; sourceTree = "<group>"; };
+		52E600892B5A2EE7009E5CE5 /* FirstContainerCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstContainerCVC.swift; sourceTree = "<group>"; };
+		52E6008C2B5A33C3009E5CE5 /* ChooseArtStyleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseArtStyleVC.swift; sourceTree = "<group>"; };
+		52E6008F2B5A33DE009E5CE5 /* InspirationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationVC.swift; sourceTree = "<group>"; };
+		52E600912B5A485D009E5CE5 /* InspirationCollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationCollVC.swift; sourceTree = "<group>"; };
+		52E600932B5A5053009E5CE5 /* ChooseSettingCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSettingCVC.swift; sourceTree = "<group>"; };
+		798F3D1A6E013F81170EA62D /* Pods-AnimeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeTest.debug.xcconfig"; path = "Target Support Files/Pods-AnimeTest/Pods-AnimeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		BFC3F42B5FFC41FF0D3BF9CA /* Pods-AnimeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeTest.release.xcconfig"; path = "Target Support Files/Pods-AnimeTest/Pods-AnimeTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D1E05C2B578E6300DCCC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6779581B451789F29EF6A3CF /* Pods_AnimeTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52679BAB2B57DCD50075F5A7 /* ResultsAndEditPromptVC */ = {
+			isa = PBXGroup;
+			children = (
+				52679BAC2B57DCE30075F5A7 /* ResultsVC.swift */,
+				52B5C2842B5BE8ED0090C379 /* EditPromptVC.swift */,
+			);
+			path = ResultsAndEditPromptVC;
+			sourceTree = "<group>";
+		};
+		527756BC2B5AB5DA00CA7428 /* ShareArtWorkVC */ = {
+			isa = PBXGroup;
+			children = (
+				527756BD2B5AB5F200CA7428 /* ShareArtWorkVC.swift */,
+			);
+			path = ShareArtWorkVC;
+			sourceTree = "<group>";
+		};
+		527756BF2B5ADEDF00CA7428 /* Result Regenerate */ = {
+			isa = PBXGroup;
+			children = (
+				527756C02B5ADEF300CA7428 /* ResultRegenerateVC.swift */,
+			);
+			path = "Result Regenerate";
+			sourceTree = "<group>";
+		};
+		52B5C2812B5BB1770090C379 /* CraftYourArtVC */ = {
+			isa = PBXGroup;
+			children = (
+				52B5C2822B5BB1870090C379 /* CraftYourArtVC.swift */,
+			);
+			path = CraftYourArtVC;
+			sourceTree = "<group>";
+		};
+		52C817CF2B579F3600E450C5 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				52C817D02B579F5400E450C5 /* ArtStyleCollectionVC.swift */,
+				52B5C2862B5BEBF10090C379 /* EditPromptCVC.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		52C817D22B57BB6F00E450C5 /* AdvanceSettingVC */ = {
+			isa = PBXGroup;
+			children = (
+				52C817D32B57BB9600E450C5 /* AdvanceSettingVC.swift */,
+			);
+			path = AdvanceSettingVC;
+			sourceTree = "<group>";
+		};
+		52D1E0562B578E6300DCCC2D = {
+			isa = PBXGroup;
+			children = (
+				52D1E0612B578E6300DCCC2D /* AnimeTest */,
+				52D1E0602B578E6300DCCC2D /* Products */,
+				E3690676BA3483D537317DD4 /* Pods */,
+				979B28F121363C29FFA845D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52D1E0602B578E6300DCCC2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D1E05F2B578E6300DCCC2D /* AnimeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D1E0612B578E6300DCCC2D /* AnimeTest */ = {
+			isa = PBXGroup;
+			children = (
+				52D1E0762B578E8500DCCC2D /* Model */,
+				52D1E0772B578E8D00DCCC2D /* ViewController */,
+				52D1E0622B578E6300DCCC2D /* AppDelegate.swift */,
+				52D1E0642B578E6300DCCC2D /* SceneDelegate.swift */,
+				52D1E0682B578E6300DCCC2D /* Main.storyboard */,
+				52D1E06B2B578E6600DCCC2D /* Assets.xcassets */,
+				52D1E06D2B578E6600DCCC2D /* LaunchScreen.storyboard */,
+				52D1E0702B578E6600DCCC2D /* Info.plist */,
+			);
+			path = AnimeTest;
+			sourceTree = "<group>";
+		};
+		52D1E0762B578E8500DCCC2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52D1E0772B578E8D00DCCC2D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				52B5C2812B5BB1770090C379 /* CraftYourArtVC */,
+				527756BF2B5ADEDF00CA7428 /* Result Regenerate */,
+				527756BC2B5AB5DA00CA7428 /* ShareArtWorkVC */,
+				52E6008E2B5A33D1009E5CE5 /* InspirationVC */,
+				52E6008B2B5A33AC009E5CE5 /* ChooseArtStyleVC */,
+				52679BAB2B57DCD50075F5A7 /* ResultsAndEditPromptVC */,
+				52C817D22B57BB6F00E450C5 /* AdvanceSettingVC */,
+				52C817CF2B579F3600E450C5 /* CollectionViewCells */,
+				52D1E07A2B57905000DCCC2D /* FirstTabBarVC */,
+				52D1E0782B578F9000DCCC2D /* AnimeArtVC.swift */,
+				52D1E07B2B57906200DCCC2D /* SecondTabBarVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		52D1E07A2B57905000DCCC2D /* FirstTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				52E600852B5A2E4D009E5CE5 /* ContainerView */,
+				52E600822B5A2DC9009E5CE5 /* ArtStyleCVC */,
+			);
+			path = FirstTabBarVC;
+			sourceTree = "<group>";
+		};
+		52D1E07B2B57906200DCCC2D /* SecondTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				52D1E07C2B57935500DCCC2D /* UploadVC.swift */,
+			);
+			path = SecondTabBarVC;
+			sourceTree = "<group>";
+		};
+		52E600822B5A2DC9009E5CE5 /* ArtStyleCVC */ = {
+			isa = PBXGroup;
+			children = (
+				52E600832B5A2DF3009E5CE5 /* FirsttababrArtCVC.swift */,
+			);
+			path = ArtStyleCVC;
+			sourceTree = "<group>";
+		};
+		52E600852B5A2E4D009E5CE5 /* ContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				52E600882B5A2EBB009E5CE5 /* ContainerViewCVC */,
+				52E600862B5A2E6D009E5CE5 /* FirsttabbarContainerVC.swift */,
+			);
+			path = ContainerView;
+			sourceTree = "<group>";
+		};
+		52E600882B5A2EBB009E5CE5 /* ContainerViewCVC */ = {
+			isa = PBXGroup;
+			children = (
+				52E600892B5A2EE7009E5CE5 /* FirstContainerCVC.swift */,
+			);
+			path = ContainerViewCVC;
+			sourceTree = "<group>";
+		};
+		52E6008B2B5A33AC009E5CE5 /* ChooseArtStyleVC */ = {
+			isa = PBXGroup;
+			children = (
+				52E6008C2B5A33C3009E5CE5 /* ChooseArtStyleVC.swift */,
+				52E600932B5A5053009E5CE5 /* ChooseSettingCVC.swift */,
+			);
+			path = ChooseArtStyleVC;
+			sourceTree = "<group>";
+		};
+		52E6008E2B5A33D1009E5CE5 /* InspirationVC */ = {
+			isa = PBXGroup;
+			children = (
+				52E6008F2B5A33DE009E5CE5 /* InspirationVC.swift */,
+				52E600912B5A485D009E5CE5 /* InspirationCollVC.swift */,
+			);
+			path = InspirationVC;
+			sourceTree = "<group>";
+		};
+		979B28F121363C29FFA845D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F1A032DF92395218396B180 /* Pods_AnimeTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3690676BA3483D537317DD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				798F3D1A6E013F81170EA62D /* Pods-AnimeTest.debug.xcconfig */,
+				BFC3F42B5FFC41FF0D3BF9CA /* Pods-AnimeTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D1E05E2B578E6300DCCC2D /* AnimeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D1E0732B578E6600DCCC2D /* Build configuration list for PBXNativeTarget "AnimeTest" */;
+			buildPhases = (
+				0418B81CA9B3DF867F4E6256 /* [CP] Check Pods Manifest.lock */,
+				52D1E05B2B578E6300DCCC2D /* Sources */,
+				52D1E05C2B578E6300DCCC2D /* Frameworks */,
+				52D1E05D2B578E6300DCCC2D /* Resources */,
+				D34AB6562D32471A11C6EAAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimeTest;
+			productName = AnimeTest;
+			productReference = 52D1E05F2B578E6300DCCC2D /* AnimeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D1E0572B578E6300DCCC2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					52D1E05E2B578E6300DCCC2D = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 52D1E05A2B578E6300DCCC2D /* Build configuration list for PBXProject "AnimeTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D1E0562B578E6300DCCC2D;
+			productRefGroup = 52D1E0602B578E6300DCCC2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D1E05E2B578E6300DCCC2D /* AnimeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D1E05D2B578E6300DCCC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D1E06F2B578E6600DCCC2D /* LaunchScreen.storyboard in Resources */,
+				52D1E06C2B578E6600DCCC2D /* Assets.xcassets in Resources */,
+				52D1E06A2B578E6300DCCC2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0418B81CA9B3DF867F4E6256 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimeTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D34AB6562D32471A11C6EAAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimeTest/Pods-AnimeTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimeTest/Pods-AnimeTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimeTest/Pods-AnimeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D1E05B2B578E6300DCCC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E600942B5A5053009E5CE5 /* ChooseSettingCVC.swift in Sources */,
+				52E6008D2B5A33C3009E5CE5 /* ChooseArtStyleVC.swift in Sources */,
+				52679BAD2B57DCE30075F5A7 /* ResultsVC.swift in Sources */,
+				527756BE2B5AB5F200CA7428 /* ShareArtWorkVC.swift in Sources */,
+				52B5C2852B5BE8ED0090C379 /* EditPromptVC.swift in Sources */,
+				52E600842B5A2DF3009E5CE5 /* FirsttababrArtCVC.swift in Sources */,
+				52C817D12B579F5400E450C5 /* ArtStyleCollectionVC.swift in Sources */,
+				52E6008A2B5A2EE7009E5CE5 /* FirstContainerCVC.swift in Sources */,
+				52B5C2872B5BEBF10090C379 /* EditPromptCVC.swift in Sources */,
+				52D1E0632B578E6300DCCC2D /* AppDelegate.swift in Sources */,
+				52E600922B5A485D009E5CE5 /* InspirationCollVC.swift in Sources */,
+				52D1E0792B578F9000DCCC2D /* AnimeArtVC.swift in Sources */,
+				52E600902B5A33DE009E5CE5 /* InspirationVC.swift in Sources */,
+				52B5C2832B5BB1870090C379 /* CraftYourArtVC.swift in Sources */,
+				52D1E0652B578E6300DCCC2D /* SceneDelegate.swift in Sources */,
+				52E600872B5A2E6D009E5CE5 /* FirsttabbarContainerVC.swift in Sources */,
+				527756C12B5ADEF300CA7428 /* ResultRegenerateVC.swift in Sources */,
+				52C817D42B57BB9600E450C5 /* AdvanceSettingVC.swift in Sources */,
+				52D1E07D2B57935500DCCC2D /* UploadVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52D1E0682B578E6300DCCC2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D1E0692B578E6300DCCC2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52D1E06D2B578E6600DCCC2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D1E06E2B578E6600DCCC2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52D1E0712B578E6600DCCC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52D1E0722B578E6600DCCC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D1E0742B578E6600DCCC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798F3D1A6E013F81170EA62D /* Pods-AnimeTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6RPHR2GSL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimeTest/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = Allow;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnimeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52D1E0752B578E6600DCCC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC3F42B5FFC41FF0D3BF9CA /* Pods-AnimeTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6RPHR2GSL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimeTest/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = Allow;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnimeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D1E05A2B578E6300DCCC2D /* Build configuration list for PBXProject "AnimeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D1E0712B578E6600DCCC2D /* Debug */,
+				52D1E0722B578E6600DCCC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D1E0732B578E6600DCCC2D /* Build configuration list for PBXNativeTarget "AnimeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D1E0742B578E6600DCCC2D /* Debug */,
+				52D1E0752B578E6600DCCC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D1E0572B578E6300DCCC2D /* Project object */;
+}
